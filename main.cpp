@@ -22,11 +22,13 @@ int main()
     cout << un_dia.get_dia() << endl;
     cout << un_mes.get_mes() << "FIN TEST 1. 1 ERROR TUVO QUE HABER" << endl;
 
-    fecha una_fecha(8); ///POR QUE NO QUEDA GUARDADO?
-    //fecha * una_fecha = new fecha(3);
+    fecha una_fecha(8); ///POR QUE NO QUEDA GUARDADO? xq no es un ptero
+    fecha * otra_fecha = new fecha(1,1,1);
     una_fecha.set_dia(15);
     una_fecha.set_mes(4);
     una_fecha.set_anio(1326);
+    ///otra_fecha->set_mes(8); anda
+    cout << " me meti por defecto" << otra_fecha->get_mes() << endl;
     cout << una_fecha.get_dia() << endl;
     cout << una_fecha.get_mes() << endl;
     cout << una_fecha.get_anio() << endl << "FIN ESCALERA" <<endl;

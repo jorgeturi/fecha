@@ -7,7 +7,7 @@
 class fecha : public dia , public mes , public anio
 {
 public:
-    fecha(int);
+    fecha(int = 2, int = 3, int = 4);
     virtual ~fecha();
 
     void metodoClaseDerivada();
@@ -15,7 +15,6 @@ public:
     imprimir_fecha();
 
 private:
-    int atributoClaseDerivada;
     dia algun_dia;
     mes algun_mes;
     anio algun_anio;

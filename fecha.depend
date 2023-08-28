@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1693240790 source:c:\users\jorge\documents\programascode\fecha\main.cpp
+1693263403 source:c:\users\jorge\documents\programascode\fecha\main.cpp
 	<iostream>
 	"dia.h"
 	"mes.h"
@@ -27,11 +27,11 @@
 
 1692742853 c:\users\jorge\documents\programascode\fecha\include\anio.h
 
-1693240784 source:c:\users\jorge\documents\programascode\fecha\src\fecha.cpp
+1693263078 source:c:\users\jorge\documents\programascode\fecha\src\fecha.cpp
 	"fecha.h"
 	"iostream"
 
-1693240764 c:\users\jorge\documents\programascode\fecha\include\fecha.h
+1693263065 c:\users\jorge\documents\programascode\fecha\include\fecha.h
 	"dia.h"
 	"mes.h"
 	"anio.h"
