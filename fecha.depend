@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1693240790 source:c:\users\jorge\documents\programascode\fecha\main.cpp
+	<iostream>
+	"dia.h"
+	"mes.h"
+	"anio.h"
+	"fecha.h"
+	<string>
+	<map>
+	<sstream>
+
+1692741929 source:c:\users\jorge\documents\programascode\fecha\src\dia.cpp
+	"dia.h"
+	"iostream"
+
+1692742853 c:\users\jorge\documents\programascode\fecha\include\dia.h
+
+1692741929 source:c:\users\jorge\documents\programascode\fecha\src\mes.cpp
+	"mes.h"
+	"iostream"
+
+1692742853 c:\users\jorge\documents\programascode\fecha\include\mes.h
+
+1692743718 source:c:\users\jorge\documents\programascode\fecha\src\anio.cpp
+	"anio.h"
+	"iostream"
+
+1692742853 c:\users\jorge\documents\programascode\fecha\include\anio.h
+
+1693240784 source:c:\users\jorge\documents\programascode\fecha\src\fecha.cpp
+	"fecha.h"
+	"iostream"
+
+1693240764 c:\users\jorge\documents\programascode\fecha\include\fecha.h
+	"dia.h"
+	"mes.h"
+	"anio.h"
+
