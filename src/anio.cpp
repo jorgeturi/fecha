@@ -3,7 +3,7 @@
 
 anio::anio(int an)
 {
-   anio_g=an;
+   anio_g = an;
 }
 
 anio::~anio()

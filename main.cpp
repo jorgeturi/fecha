@@ -24,7 +24,7 @@ int main()
 
     fecha una_fecha(8,7,1300); ///POR QUE NO QUEDA GUARDADO? xq no es un ptero
     una_fecha.set_mes(7);
-    fecha * otra_fecha = new fecha();
+    fecha * otra_fecha = new fecha(3);
 
     ///otra_fecha->set_mes(8); anda
     cout << " me meti por defecto" << otra_fecha->get_mes() << endl;

@@ -1,7 +1,7 @@
 #include "fecha.h"
 #include "iostream"
 
-fecha::fecha(int un_me, int un_di,int un_an){
+fecha::fecha(int un_di, int un_me,int un_an){
 
     algun_anio.set_anio(un_an);
     algun_mes.set_mes(un_me);
@@ -32,4 +32,8 @@ void fecha::set_fecha(int dia_a_guardar, int mes_a_guardar, int anio_a_guardar){
    algun_mes.set_mes(mes_a_guardar);
 
    algun_anio.set_anio(anio_a_guardar);
+}
+
+int fecha::get_mes(){
+    return algun_mes.get_mes();
 }
