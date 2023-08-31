@@ -2,9 +2,11 @@
 #include "iostream"
 
 fecha::fecha(int un_me, int un_di,int un_an){
+
+    algun_anio.set_anio(un_an);
     algun_mes.set_mes(un_me);
     algun_dia.set_dia(un_di);
-    algun_anio.set_anio(un_an);
+
 }
 
 

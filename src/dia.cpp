@@ -2,9 +2,9 @@
 
 using namespace std;
 #include "iostream"
-dia::dia()
+dia::dia(int di)
 {
-    //ctor
+   dia_g = di;
 }
 
 dia::~dia()

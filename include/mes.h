@@ -5,7 +5,7 @@
 class mes
 {
     public:
-        mes();
+        mes(int = 0);
         virtual ~mes();
 
         int get_mes();

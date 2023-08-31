@@ -5,7 +5,7 @@
 class anio
 {
     public:
-        anio();
+        anio(int = 0);
         virtual ~anio();
      int get_anio();
         void set_anio(int anio_);

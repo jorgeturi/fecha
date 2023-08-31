@@ -1,9 +1,9 @@
 #include "anio.h"
 #include "iostream"
 
-anio::anio()
+anio::anio(int an)
 {
-    //ctor
+   anio_g=an;
 }
 
 anio::~anio()

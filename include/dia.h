@@ -5,7 +5,7 @@
 class dia
 {
     public:
-        dia();
+        dia(int = 0);
         virtual ~dia();
 
         unsigned int get_dia();

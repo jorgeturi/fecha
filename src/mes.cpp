@@ -1,10 +1,11 @@
 #include "mes.h"
 #include "iostream"
 
-mes::mes()
+mes::mes(int me)
 {
-    //ctor
+  mes_g = me;
 }
+
 
 mes::~mes()
 {
